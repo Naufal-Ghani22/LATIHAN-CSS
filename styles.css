@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(10, 177, 255);
+}
+
+h1 {
+    color: aqua;
+    background-color: blue;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI';
+    font-size: 90px;
+    text-shadow: 5px 5px 10px black; 
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px black;
+}
+
+p.paragraf{
+    color: rgb(0, 1, 82);
+    padding: 10px;
+    padding-top: 1px;
+}
+
+.artikel{
+    background-color: aliceblue;
+    padding: 0px;
+    padding-top: 0px;
+}
+
+.abc{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+a.lnk:hover{
+    color: aquamarine;
+}
+a.lnk:active{
+    color: rgb(255, 0, 212);
+}
+
+.lnk{
+    font-family: Impact;
+}
+
+.tabel {
+    background-color: rgb(190, 225, 255);
+    padding: 20px;
+}
+
+td.box1 {
+    background-color: bisque;
+    height: 200px;
+}
+
+td.box2 {
+    background-color: brown;
+}
+
+
+h1.judul{
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    background-color: aqua;
+    font-size: 50px;
+}
+
+p.baru{
+    color: aliceblue;
+    text-align: justify;
+}
