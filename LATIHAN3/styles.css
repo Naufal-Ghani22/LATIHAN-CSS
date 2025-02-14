@@ -1,0 +1,92 @@
+.header{
+    background-color: deepskyblue;
+    padding: 30px;
+    text-align: center;
+}
+
+.headerTitle{
+    font-family: tahoma;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header:hover{
+    background-color: blueviolet;
+}
+
+.judul{
+    text-align: center;
+    margin-top: 10px;
+    background-color: aquamarine;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    color: darkblue;
+}
+
+.judulTitle{
+    text-decoration: none;
+}
+
+.penulis{
+    color: tomato;
+}
+
+.tanggal{
+    color: blue;
+}
+
+.container{
+    padding: 10px 200px;
+}
+
+.containerTitle{
+    font-family: Calibri;
+    font-style: italic;
+}
+
+.containerPar{
+    text-align: justify;
+}
+
+.allBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 220px;
+    width: 400px;
+    background-color: cornflowerblue;
+    margin: 10px 10px;
+}
+
+.box:hover{
+    background-color: blue;
+}
+
+.boxTitle{
+    background-color: aquamarine;
+    font-family: tahoma;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px 5px;
+    text-align: center;
+}
+
+.boxPar{
+    padding: 0px 25px;
+    color: aliceblue;
+}
+
+.moreInfo{
+    background-color: burlywood;
+    padding: 0px 25px;
+    margin-left: 25px;
+    
+}
