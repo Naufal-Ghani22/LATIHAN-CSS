@@ -1,0 +1,143 @@
+*{
+    font-family: tahoma;
+}
+
+.header-logo img{
+    height: 100px;
+}
+
+.header{
+    display: flex;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.header-title {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 2em;
+}
+
+.header-title a{
+    text-decoration: none;
+    font-size: 55px;
+    color: rgb(3, 100, 117);
+    font-weight: bold;
+}
+
+/* NAVBAR */
+.nav{
+    background-color: rgb(1, 148, 111);
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-item a:hover{
+    color: aquamarine;
+}
+
+/* KONTEN */
+.konten{
+    width: 80%;
+    margin: auto;
+}
+
+.konten h1{
+    color: rgb(1, 148, 111);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.konten h2{
+    color: rgb(1, 148, 111);
+}
+
+/* Tabel */
+
+.tabel{
+    border-spacing: 4px;
+}
+
+.tabel-header{
+    background-color: aquamarine;
+}
+
+.tabel-header th{
+    padding: 10px;
+}
+
+td>img{
+    width: 200px;
+}
+
+.tabel-konten{
+    background-color: azure;
+}
+
+.tabel-konten td{
+    padding: 10px;
+}
+
+.tabel-konten:hover{
+    background-color: teal;
+}
+
+.tabel-genap{
+    background-color: beige;
+}
+
+
+/* form */
+
+.form-grup{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-grup label{
+    font-size: 20px;
+    color: teal;
+}
+
+.form-grup input{
+    display: block;
+    width: 70%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.form-grup textarea{
+    display: block;
+    margin-top: 20px;
+    width: 70%;
+    height: 300px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: teal;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
+
+.btn:active{
+    background-color: brown;
+}
