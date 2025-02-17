@@ -1,0 +1,60 @@
+*{
+    font-family: tahoma;
+}
+
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    margin: auto;
+}
+
+#konten{
+    overflow: auto;
+}
+
+img{
+    width: 200px;
+}
+
+.header{
+    text-align: center;
+}
+
+.nav, #fitur, .footer{
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#fitur img{
+    width: 30%;
+}
+
+.kolom1, .kolom2, .kolom3{
+    background-color: aqua;
+    width: 30%;
+    float: left;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    padding: 0.66%;
+}
+
+.kolom1{
+    margin-left: 0%;
+}
+
+.kolom3{
+    margin-right: 0%;
+}
+
+#konten h3{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    padding: 15px;
+}
